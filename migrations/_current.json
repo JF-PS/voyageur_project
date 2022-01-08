@@ -1,0 +1,43 @@
+{
+    "tables": {
+        "Users": {
+            "tableName": "Users",
+            "schema": {
+                "id": {
+                    "allowNull": false,
+                    "primaryKey": true,
+                    "autoIncrement": true,
+                    "field": "id",
+                    "seqType": "Sequelize.INTEGER"
+                },
+                "login": {
+                    "field": "login",
+                    "seqType": "Sequelize.TEXT"
+                },
+                "password": {
+                    "field": "password",
+                    "seqType": "Sequelize.TEXT"
+                },
+                "role": {
+                    "field": "role",
+                    "seqType": "Sequelize.TEXT"
+                },
+                "createdAt": {
+                    "allowNull": false,
+                    "field": "createdAt",
+                    "seqType": "Sequelize.DATE"
+                },
+                "updatedAt": {
+                    "allowNull": false,
+                    "field": "updatedAt",
+                    "seqType": "Sequelize.DATE"
+                }
+            },
+            "indexes": []
+        }
+    },
+    "path": "D:\\Hugo_Project\\Project\\Server\\migrations\\_current.json",
+    "backupPath": "D:\\Hugo_Project\\Project\\Server\\migrations\\_current_bak.json",
+    "exists": false,
+    "revision": 1
+}
